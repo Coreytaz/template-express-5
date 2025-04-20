@@ -5,7 +5,7 @@ import morgan from "morgan";
 
 morgan.token(
   "message",
-  (req: Request, res: Response) => res.locals.errorMessage || "",
+  (req: Request, res: Response) => res.locals.errorMessage ?? "",
 );
 
 const clientRemoteAddr = (): string =>

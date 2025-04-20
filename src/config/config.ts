@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+ 
 import Joi from "joi";
 
 // All env variables used by the app should be defined in this file.

@@ -14,7 +14,7 @@ const server: Server = app.listen(port, (): void => {
 const exitHandler = (): void => {
   server.close(() => {
     logger.info("Server closed");
-    // eslint-disable-next-line unicorn/no-process-exit
+     
     process.exit(1);
   });
 };
